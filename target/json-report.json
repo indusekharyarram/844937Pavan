@@ -1,0 +1,29 @@
+Feature: taskmanager
+
+  Scenario: Login to the TaskManager # src/main/resources/feature/testcase.feature:3
+    Given launch the browser         # LoginSd.launch_the_browser()
+    When open TaskManager website    # LoginSd.open_TaskManager_website()
+    Then enter Username and Password # LoginSd.enter_Username_and_Password()
+    And click on Login button        # LoginSd.click_on_Login_button()
+
+  Scenario: Add Project to the TaskManager Website # src/main/resources/feature/testcase.feature:11
+    Given Open the Website in the Browser          # AddProjectSd1.open_the_Website_in_the_Browser()
+    When Click on the Projects                     # AddProjectSd1.click_on_the_Projects()
+    Then Click on the Add New Project              # AddProjectSd1.click_on_the_Add_New_Project()
+    Then Enter the Project Name                    # AddProjectSd1.enter_the_Project_Name()
+    And Click on the Add Button                    # AddProjectSd1.click_on_the_Add_Button()
+
+  Scenario: Search the  New Project       # src/main/resources/feature/testcase.feature:20
+    Given Open the website in the Browser # SearchSd.open_the_website_in_the_Browser()
+    When Click On Task List               # SearchSd.click_On_Task_List()
+    When Select the Newly Entered Project # SearchSd.select_the_Newly_Entered_Project()
+    And Click on the Search button        # SearchSd.click_on_the_Search_button()
+
+  Scenario: Add Task to the  Newly entered Project # src/main/resources/feature/testcase.feature:28
+    Given Launch the Website in the Browser        # AddTaskSd1.launch_the_Website_in_the_Browser()
+    When Click on the AddNewTask                   # AddTaskSd1.click_on_the_AddNewTask()
+    Then Enter all the details                     # AddTaskSd1.enter_all_the_details()
+    Then Slect the Start Date                      # AddTaskSd1.slect_the_Start_Date()
+    Then Select the End Date                       # AddTaskSd1.select_the_End_Date()
+    Then Click on the Add button                   # AddTaskSd1.click_on_the_Add_button()
+    And Take screenshot                            # AddTaskSd1.take_screenshot()
