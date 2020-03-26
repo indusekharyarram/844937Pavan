@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="332.8341">
+    <testcase classname="taskmanager" name="Login to the TaskManager" time="169.93867">
+        <system-out>
+            <![CDATA[Given launch the browser....................................................passed
+When open TaskManager website...............................................passed
+Then enter Username and Password............................................passed
+And click on Login button...................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="taskmanager" name="Add Project to the TaskManager Website" time="53.760929">
+        <system-out>
+            <![CDATA[Given Open the Website in the Browser.......................................passed
+When Click on the Projects..................................................passed
+Then Click on the Add New Project...........................................passed
+Then Enter the Project Name.................................................passed
+And Click on the Add Button.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="taskmanager" name="Search the  New Project" time="33.62724">
+        <system-out>
+            <![CDATA[Given Open the website in the Browser.......................................passed
+When Click On Task List.....................................................passed
+When Select the Newly Entered Project.......................................passed
+And Click on the Search button..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="taskmanager" name="Add Task to the  Newly entered Project" time="75.507261">
+        <system-out>
+            <![CDATA[Given Launch the Website in the Browser.....................................passed
+When Click on the AddNewTask................................................passed
+Then Enter all the details..................................................passed
+Then Slect the Start Date...................................................passed
+Then Select the End Date....................................................passed
+Then Click on the Add button................................................passed
+And Take screenshot.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
